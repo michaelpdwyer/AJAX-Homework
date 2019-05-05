@@ -5,7 +5,7 @@ var adChars = ["Michael Bluth", "George Michael Bluth", "Lindsay Bluth", "George
 function displayCharacterGif() {
 
   var character = $(this).attr("data-name");
-  var queryURL = "https://api.giphy.com/v1/gifs/random?" + "api_key=uAfM6T7jR2i2ukyt8qoJLkqCGQUDQvVq" + "&tag=" + character;
+  var queryURL = "https://api.giphy.com/v1/gifs/random?" + "api_key=uAfM6T7jR2i2ukyt8qoJLkqCGQUDQvVq&limit=10" + "&tag=" + character;
 
   // AJAX reference
   $.ajax({
