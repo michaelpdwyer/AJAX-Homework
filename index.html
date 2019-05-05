@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arrested Development in GIFs!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <style>
+        h3,
+        h5,
+        form {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+
+    <br><br>
+    <div class="container">
+
+        <div class="row justify-content-md-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <img src="images/logoAD.png" alt="Arrested Development Logo" height="75">
+            </div>
+            <div class="col-md-4">
+                <img src="images/inGIFs.png" alt="Arrested Development GIFs" height="75">
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <br>
+
+        <div class="row justify-content-md-center">
+            <div class="col-md-12">
+                <div id="buttons-display"></div>
+            </div>
+        </div>
+        <br>
+
+        <div class="row justify-content-md-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 justify-content-md-center">
+                <h3>Type the name of another character!</h3>
+                <h5>It would be a huge mistake if you didn't.</h5>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <br>
+
+        <div class="row justify-content-md-center">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <form id="character-form">
+                    <input type="text" name="fname" placeholder="e.g., STEVE HOLT!"><br><br>
+                    <input id="add-character" type="submit" value="Marry Me!">
+                </form>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <br>
+
+        <div class="row justify-content-md-center">
+            <div class="col-md-12">
+                <div id="character-display"></div>
+            </div>
+        </div>
+        <br>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
